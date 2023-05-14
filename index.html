@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Foldit:wght@500&family=Open+Sans:wght@300;400;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,700;1,100&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+      <h1>Password Generator</h1>
+     
+    </div>
+    <hr>
+    
+    <div class="col">
+    
+    <div class="left-side">
+    
+    <div class="length">
+      <label for="amount">Password Length</label>
+    </div>
+    <div class="input-div" >
+      <input  class="input-box" type="number" id="amount" min =1 max=20>
+    </div>
+    
+    <div class="submit-div">
+      <button onclick="makePassword()" class="submit-btn" title="Make Password">🔑</button>
+    </div>
+
+  </div>
+  <div class="right-side">
+    <p id="user-pass" class="output"></p>
+  </div>
+
+      
+      </div>
+    
+    <p class="extra" id ="strong"></p>
+    
+    </div>
+  
+
+  
+</body>
+</html>
+

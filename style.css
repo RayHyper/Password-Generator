@@ -1,0 +1,115 @@
+.container{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width:700px;
+  height:300px;
+
+  margin:auto;
+  margin-top:50px;
+  background-color:white;
+  border-radius:10px;
+
+
+}
+
+*{
+  padding:0;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+  
+}
+body{
+  background-color:lightblue;
+  
+}
+
+.title{
+  padding-top:30px;
+  padding-left:50px;
+  padding-bottom:10px;
+  color:#00BFFF;
+  text-align:center;
+
+}
+hr {
+  height: 1px;
+  width:600px;
+  margin:auto;
+  border: 0;
+ box-shadow: rgba(0, 0, 0, 0.35) 1.95px 1.95px 2.6px;
+}
+
+.length{
+  padding-left:20px;
+  padding-top:20px;
+}
+
+.input-box{
+  width:60px;
+  height:40px;
+  font-size:15px;
+  border:none;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.19) 0px 0px 0px 1px;
+  border-radius:10px;
+  text-align:center;
+
+}
+
+.input-div{
+  margin-left:40px;
+  margin-top:20px;
+}
+
+.submit-btn{
+
+  width:60px;
+  height:50px;
+  border:none;
+  background-color:rgb(230, 51, 37);
+  border-radius:10px;
+  cursor:pointer;
+  font-size:25px;
+}
+
+.submit-btn:hover{
+  background-color:rgb(200, 51, 37);
+}
+.submit-btn:active{
+  background-color:rgb(180, 51, 37);
+}
+.submit-div{
+  margin-left:40px;
+  margin-top:20px;
+
+}
+
+.left-side{
+  width:180px;
+  margin-left:20px;
+  
+ 
+}
+
+.right-side{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px, rgb(51, 51, 51,0.1) 0px 0px 0px 3px;
+  width:450px;
+  height:90px;
+  margin-top:40px;
+  border-radius:5px;
+
+}
+.col{
+  display:flex;
+}
+
+.output{
+  font-size:35px;
+  padding-top:20px;
+  padding-left:10px;
+  font-weight:400;
+ 
+}
+
+.extra{
+  margin-left:330px;
+
+}
